@@ -1,0 +1,30 @@
+{
+  "name": "rounded-9-patch",
+  "version": "1.0.0",
+  "description": "Gera imagens 9-patch (.9.png) de retângulos arredondados (contorno ou preenchido) para Roku SceneGraph e Android.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "rounded-9-patch": "bin/rounded-9-patch.js"
+  },
+  "scripts": {
+    "generate": "node bin/rounded-9-patch.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.3"
+  },
+  "keywords": [
+    "9-patch",
+    "nine-patch",
+    "png",
+    "roku",
+    "scenegraph"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pngjs": "7.0.0"
+  }
+}
